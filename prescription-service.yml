@@ -1,0 +1,15 @@
+server:
+  port: 8084
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hospital_db
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8680/eureka
